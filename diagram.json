@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "author": "Eyup",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-v1", "id": "esp_sender", "top": -50, "left": 0 },
+    { "type": "board-esp32-devkit-v1", "id": "esp_receiver", "top": 250, "left": 0 }
+  ],
+  "connections": [
+    [ "esp_sender:TX0", "esp_receiver:RX0", "green", [ "v0" ] ],
+    [ "esp_sender:RX0", "esp_receiver:TX0", "blue", [ "v0" ] ],
+    [ "esp_sender:GND.1", "esp_receiver:GND.1", "black", [ "v0" ] ]
+  ]
+}

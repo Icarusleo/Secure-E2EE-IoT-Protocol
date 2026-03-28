@@ -1,0 +1,12 @@
+[wokwi]
+version = 1
+
+[[fw]]
+id = 'esp_sender'
+firmware = 'C:/Users/eyup1/Documents/PlatformIO/Projects/My_Security_Project/Receiver/.pio/build/esp32dev/firmware.bin'
+elf = 'C:/Users/eyup1/Documents/PlatformIO/Projects/My_Security_Project/Receiver/.pio/build/esp32dev/firmware.elf'
+
+[[fw]]
+id = 'esp_receiver'
+firmware = 'C:/Users/eyup1/Documents/PlatformIO/Projects/My_Security_Project/Secure_Comm_Sender/.pio/build/esp32dev/firmware.bin'
+elf = 'C:/Users/eyup1/Documents/PlatformIO/Projects/My_Security_Project/Secure_Comm_Sender/.pio/build/esp32dev/firmware.elf'
